@@ -116,6 +116,12 @@ cursor:pointer;
   height: 500px;
   padding: 10px;
 }
+.divhtml:hover:not(:hover), .divcss:hover:not(:hover), .divfigma:hover:not(:hover) {
+  opacity: 0.3;
+}
+.divhtml:hover, .divcss:hover, .divfigma:hover{
+  scale: 1.1;
+}
 .texthtml, .textcss,.textfigma {
   font-family: "Source Sans 3", sans-serif;
   color: #ffffff;
